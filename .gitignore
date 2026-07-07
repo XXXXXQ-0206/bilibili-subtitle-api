@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+cookie.txt
+*.cookie
+*.pem
+*.key
+*.p12
+
+# Cloudflare Wrangler local state
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Runtime output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Test and build artifacts
+coverage/
+dist/
+build/
+
+# Local browser/download/export artifacts
+downloads/
+history/
+favorites/
+bookmarks.html
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

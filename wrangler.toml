@@ -1,0 +1,6 @@
+name = "bilibili-subtitle-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Store BILIBILI_COOKIE as a secret instead of a plain variable:
+#   npx wrangler secret put BILIBILI_COOKIE

@@ -1,0 +1,33 @@
+{
+  "name": "bilibili-subtitle-api",
+  "version": "1.0.0",
+  "description": "Unofficial API service for fetching Bilibili video subtitles as plain text",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check lib/bilibili.js",
+    "audit": "npm audit --omit=dev"
+  },
+  "keywords": [
+    "bilibili",
+    "subtitle",
+    "captions",
+    "api",
+    "cloudflare-worker"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XXXXXQ-0206/bilibili-subtitle-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XXXXXQ-0206/bilibili-subtitle-api/issues"
+  },
+  "homepage": "https://github.com/XXXXXQ-0206/bilibili-subtitle-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
